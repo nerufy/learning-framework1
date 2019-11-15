@@ -1,0 +1,25 @@
+{% extends 'base.html.twig' %}
+
+{% block page %}{{title}}{% endblock %}
+{% block title %}
+{{title}}
+
+<h2>{{message}}</h2>
+{# {% if user %}
+
+    <table>
+    <tr>
+    <th>ID</th><td>{{user.id}}</td>
+    </tr>
+    <tr>
+    <th>Name</th><td>{{user.username}}</td>
+    </tr>
+    <tr>
+    <th>Mail</th><td>{{user.email}}</td>
+    </tr>
+    <tr>
+    <th>Role</th><td>{{user.roles[0]}}</td>
+    </tr>
+    </table>
+{% endif %} #}
+{% endblock %}
